@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
         qr.drawFinders(img);
     }
 
+    namedWindow("image", WINDOW_NORMAL);
     imshow("image", img);
     waitKey(0);
 

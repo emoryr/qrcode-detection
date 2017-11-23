@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
+set (CMAKE_CXX_FLAGS "-std=gnu++11 ${CMAKE_CXX_FLAGS}")
 project( QRCodeFinder )
 find_package( OpenCV REQUIRED )
 add_executable( QrCodeFinder main.cpp qrReader.cpp )
